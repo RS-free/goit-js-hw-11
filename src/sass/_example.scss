@@ -17,3 +17,33 @@ input {
 img {
   display: block;
 }
+
+// search-form
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: rgb(175, 238, 238);
+  box-shadow: 0 2px 3px rgb(25, 211, 211, 0.6);
+}
+
+.form-input {
+  width: 250px;
+  padding: 0 15px;
+}
+
+// button search
+.btn {
+  display: block;
+  background-color: yellowgreen;
+  margin-left: 10px;
+  width: 90px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
