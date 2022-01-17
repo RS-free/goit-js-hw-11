@@ -32,6 +32,7 @@ let perPage = 0;
 
 async function onFormSubmit(e) {
   e.preventDefault();
+  page = 1;
   dataSearch = e.currentTarget.searchQuery.value;
   if (dataSearch.trim() === '') {
     Notify.failure('Please enter your search data.');
